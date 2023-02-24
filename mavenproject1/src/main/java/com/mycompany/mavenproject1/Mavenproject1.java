@@ -7,7 +7,6 @@ import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.util.Date;
 import java.util.Locale;
-import java.util.Scanner;
 
 /**
  *
@@ -17,7 +16,7 @@ public class Mavenproject1 {
 
     public static void main(String[] args) {
 
-        /*double x = 3.0;
+double x = 3.0;
 double y = 4.0;
 double z = -5.0;
 double A, B, C;
@@ -37,8 +36,8 @@ A = Math.abs(y);
 B = Math.abs(z);
 System.out.println("Valor absoluto de " + y + " = " + A);
 System.out.println("Valor absoluto de " + z + " = " + B);
-         */
- /* Date relogio = new Date(); // DATA
+         
+ /*Date relogio = new Date(); // DATA
         System.out.println("A hora do sistema é: ");
         System.out.println(relogio.toString());
 
@@ -53,14 +52,14 @@ System.out.println("Valor absoluto de " + z + " = " + B);
         int altura = (int) size.getHeight();
 
         System.out.println("Sua resolução é de:" + " " + largura + " X " + altura);
-         */
-        Scanner sc = new Scanner(System.in);
+         
+       /* Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();
         while (x != 0) {
             x = sc.nextInt();
         }
-        sc.close();
+        sc.close();/*
 
     }
 }
